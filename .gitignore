@@ -31,3 +31,15 @@ Assets/Projects/Sound/_TEMP.meta
 .vs/
 .idea/
 Logs/
+*.log
+*.log
+Logs/AssetImportWorker0-prev.log
+Logs/AssetImportWorker0.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Logs/shadercompiler-UnityShaderCompiler.exe1.log
+Logs/shadercompiler-UnityShaderCompiler.exe2.log
+Logs/shadercompiler-UnityShaderCompiler.exe3.log
+Logs/shadercompiler-UnityShaderCompiler.exe4.log
+Logs/shadercompiler-UnityShaderCompiler.exe5.log
+Logs/shadercompiler-UnityShaderCompiler.exe6.log
