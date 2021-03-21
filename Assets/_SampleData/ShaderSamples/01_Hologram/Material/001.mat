@@ -35,8 +35,8 @@ Material:
     - Vector1_98ff36fc84b1432fab020008f6fddb93: 64
     - _Angle: 90
     - _FresnelPower: 1
-    - _Power: 2
-    - _Repeat: 100
+    - _Power: 4
+    - _Repeat: 64
     - _Speed: 1
     m_Colors:
     - Color_ec2c59cf116e46b29ef2fd13b9d5638a: {r: 0.45911932, g: 0.84898657, b: 1, a: 1}
