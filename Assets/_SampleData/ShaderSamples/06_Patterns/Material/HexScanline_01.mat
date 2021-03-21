@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_ScrollStripe
-  m_Shader: {fileID: -6465566751694194690, guid: 156985b3b600ddd4d82e5b064704a88c, type: 3}
+  m_Name: HexScanline_01
+  m_Shader: {fileID: -6465566751694194690, guid: 267ffbe4b223b114e80aa9b0b93c687c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
