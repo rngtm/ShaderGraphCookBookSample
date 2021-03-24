@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'ja' Physical Memory: 65453 MB
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'ja' Physical Memory: 65453 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/OneDrive/02_Development/02_GItHub/01_Private/ShaderGraphCookBookSample
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65451
+53923
 Successfully changed project path to: D:/OneDrive/02_Development/02_GItHub/01_Private/ShaderGraphCookBookSample
 D:/OneDrive/02_Development/02_GItHub/01_Private/ShaderGraphCookBookSample
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,123 +35,123 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001505 seconds.
+Registered in 0.001740 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.428 seconds
+- Completed reload, in  1.519 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001784 seconds.
+Registered in 0.001860 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  0.792 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2577 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.5 MB.
-System memory in use after: 121.3 MB.
+Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 122.2 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2984.
-Total: 3.351800 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.773600 ms  DeleteObjects: 1.184100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline01 1.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline01 1.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3fd23e12da225f6b4eeddb875fd749') in 0.037299 seconds
-  Import took 0.043110 seconds .
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 3.403300 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.863300 ms  DeleteObjects: 1.130400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.651041 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e047bd395a831b27b281cda95e92520') in 0.007070 seconds
-  Import took 0.013001 seconds .
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Script/UIMaterialProgress.cs
+  artifactKey: Guid(19f3201cd13cc14429f96186ef0336f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Script/UIMaterialProgress.cs using Guid(19f3201cd13cc14429f96186ef0336f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41feded00debdc4910552099a808acc0') in 0.026713 seconds
+  Import took 0.032562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008415 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e047bd395a831b27b281cda95e92520') in 0.003563 seconds
-  Import took 0.009174 seconds .
+  Time since last request: 769.033886 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Shader/UIClipAnimation.shadergraph
+  artifactKey: Guid(cf53cb4e49ec50f4d9d460dddd9bbb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Shader/UIClipAnimation.shadergraph using Guid(cf53cb4e49ec50f4d9d460dddd9bbb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66beb4d07192c3982d66627b5bfe1044') in 0.032736 seconds
+  Import took 0.038703 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.144622 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900968c90199030e69d68d71f1c4ec7') in 0.004089 seconds
-  Import took 0.010001 seconds .
+  Time since last request: 3.079700 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ClipAnimation.anim
+  artifactKey: Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ClipAnimation.anim using Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662222529eb638388eeff8ccc363191c') in 0.008398 seconds
+  Import took 0.014395 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.237983 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900968c90199030e69d68d71f1c4ec7') in 0.004184 seconds
-  Import took 0.010052 seconds .
+  Time since last request: 2.182550 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/Image.controller
+  artifactKey: Guid(35eb4cd0244ed7444bf997fa3e7a5307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/Image.controller using Guid(35eb4cd0244ed7444bf997fa3e7a5307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde7d3dc4f7fff380bb75518b3d9fae') in 0.009404 seconds
+  Import took 0.015384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.932640 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline01.shadergraph
-  artifactKey: Guid(267ffbe4b223b114e80aa9b0b93c687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline01.shadergraph using Guid(267ffbe4b223b114e80aa9b0b93c687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2e156edfff1fe3efe97bd0ddfa2502') in 0.007207 seconds
-  Import took 0.013080 seconds .
+  Time since last request: 15.837690 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ClippingAnimation.anim
+  artifactKey: Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ClippingAnimation.anim using Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210f73e96bf98865ce568db08557a1be') in 0.006877 seconds
+  Import took 0.013427 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.448383 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7e2f67e636651aed4d88882c63bc43') in 0.003665 seconds
-  Import took 0.010202 seconds .
+  Time since last request: 0.001373 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ClippingAnimation.anim
+  artifactKey: Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ClippingAnimation.anim using Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210f73e96bf98865ce568db08557a1be') in 0.002965 seconds
+  Import took 0.008154 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 415.625610 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/ScrollStripe.shadergraph
-  artifactKey: Guid(156985b3b600ddd4d82e5b064704a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/ScrollStripe.shadergraph using Guid(156985b3b600ddd4d82e5b064704a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575e459febfe791656f4595f1f3fd899') in 0.006771 seconds
-  Import took 0.012920 seconds .
+  Time since last request: 3.478368 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ProgressAnimation.anim
+  artifactKey: Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ProgressAnimation.anim using Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f96763756583adc9f5ecc29134152') in 0.006762 seconds
+  Import took 0.012874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 79.401234 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eb8c9b23c32008c0ab53dd512e199a') in 0.004204 seconds
-  Import took 0.010479 seconds .
+  Time since last request: 0.000507 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ProgressAnimation.anim
+  artifactKey: Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ProgressAnimation.anim using Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f96763756583adc9f5ecc29134152') in 0.003159 seconds
+  Import took 0.010223 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000905 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eb8c9b23c32008c0ab53dd512e199a') in 0.003499 seconds
-  Import took 0.008992 seconds .
+  Time since last request: 4.723870 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ChangeProgress.anim
+  artifactKey: Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Animation/ChangeProgress.anim using Guid(3c9dc4d5f62e9944caddeaa92d04088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8158b85937a1559bfc0a369a49c3a72e') in 0.006553 seconds
+  Import took 0.013431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.076718 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/UIClipAnimation.unity
+  artifactKey: Guid(a9493b3d4c03a324f81b9a5871688de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/UIClipAnimation.unity using Guid(a9493b3d4c03a324f81b9a5871688de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3cd63dea0e361683030072e6690b2e') in 0.007190 seconds
+  Import took 0.012963 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
