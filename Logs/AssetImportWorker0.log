@@ -15,11 +15,11 @@ D:/OneDrive/02_Development/02_GItHub/01_Private/ShaderGraphCookBookSample
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57476
+62350
 Successfully changed project path to: D:/OneDrive/02_Development/02_GItHub/01_Private/ShaderGraphCookBookSample
 D:/OneDrive/02_Development/02_GItHub/01_Private/ShaderGraphCookBookSample
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,315 +35,422 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001727 seconds.
+Registered in 0.001811 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.548 seconds
+- Completed reload, in  1.645 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002149 seconds.
+Registered in 0.002047 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
+- Completed reload, in  0.834 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2580 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.2 MB.
-System memory in use after: 122.1 MB.
+Unloading 2581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 122.6 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2988.
-Total: 3.429300 ms (FindLiveObjects: 0.405700 ms CreateObjectMapping: 0.086300 ms MarkObjects: 1.819800 ms  DeleteObjects: 1.116400 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2989.
+Total: 3.648200 ms (FindLiveObjects: 0.331100 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.090300 ms  DeleteObjects: 1.156600 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader
+  artifactKey: Guid(b73f62d613aa57a42843858246991c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader using Guid(b73f62d613aa57a42843858246991c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a200a1c560aeef08367fe3918bc8462a') in 0.010353 seconds
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.008020 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(ac62607e2fae0934eabbfe72feb8ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(ac62607e2fae0934eabbfe72feb8ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26e9f08e5709f923af888b57c4e001c') in 0.029999 seconds
+  Import took 0.036506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094159 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(ac62607e2fae0934eabbfe72feb8ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(ac62607e2fae0934eabbfe72feb8ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26e9f08e5709f923af888b57c4e001c') in 0.004003 seconds
+  Import took 0.010519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.165256 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph
+  artifactKey: Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph using Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3f809d99e674671b763f43d733d010') in 0.007717 seconds
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.443737 seconds.
   path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Texture/ok-ring.png
   artifactKey: Guid(e2190a19e5876604bb31fbcd414195bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Texture/ok-ring.png using Guid(e2190a19e5876604bb31fbcd414195bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea89d7d088db322ee263fc337dc4d87d') in 0.059785 seconds
-  Import took 0.065823 seconds .
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Texture/ok-ring.png using Guid(e2190a19e5876604bb31fbcd414195bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558ee18282f36964b58b695813344d30') in 0.157918 seconds
+  Import took 0.164748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2511.306087 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/ScrollStripe.shadergraph
-  artifactKey: Guid(156985b3b600ddd4d82e5b064704a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/ScrollStripe.shadergraph using Guid(156985b3b600ddd4d82e5b064704a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1118c7056e66640231163460e7881a5') in 0.013148 seconds
-  Import took 0.019492 seconds .
+  Time since last request: 0.005443 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Texture/ok-ring.png
+  artifactKey: Guid(e2190a19e5876604bb31fbcd414195bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/Texture/ok-ring.png using Guid(e2190a19e5876604bb31fbcd414195bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558ee18282f36964b58b695813344d30') in 0.008360 seconds
+  Import took 0.014318 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.711367 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph
-  artifactKey: Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HexScanline02.shadergraph using Guid(402e5a91aca02374cbdaa96b2013e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869a024a8bb6e9b94199606cc2e98cdd') in 0.007237 seconds
-  Import took 0.013393 seconds .
+  Time since last request: 52.197873 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph
+  artifactKey: Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph using Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140e8591094a4a9c4af14d2057636a6d') in 0.004808 seconds
+  Import took 0.010940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.307511 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/ScrollStripe 1.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/ScrollStripe 1.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2517b323b1c7de3d887cd9a499dfb3') in 0.007151 seconds
-  Import took 0.013343 seconds .
+  Time since last request: 0.241242 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph
+  artifactKey: Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph using Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140e8591094a4a9c4af14d2057636a6d') in 0.004356 seconds
+  Import took 0.010337 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.190800 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/Heart.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/Heart.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30b67df21a6451d1e928b6626b1af20') in 0.007203 seconds
-  Import took 0.012967 seconds .
+  Time since last request: 2.724233 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph
+  artifactKey: Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph using Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d96f6fa69090a35d879632db3c7bc3') in 0.004500 seconds
+  Import took 0.010818 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 517.097902 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2afc4af300687980642c5262ccf607') in 0.007302 seconds
-  Import took 0.013420 seconds .
+  Time since last request: 0.010024 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph
+  artifactKey: Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply.shadergraph using Guid(7a60d7439ba5c124381e9c92adb3b1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d96f6fa69090a35d879632db3c7bc3') in 0.004151 seconds
+  Import took 0.009841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.423471 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/heart-gradient.png
-  artifactKey: Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/heart-gradient.png using Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bb803dc360f690ed01200eb9b87fdd') in 0.015315 seconds
-  Import took 0.021287 seconds .
+  Time since last request: 24.790078 seconds.
+  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/UIClipAnimation 1.unity
+  artifactKey: Guid(714de318b22d63b478b4405e83f374c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/UIClipAnimation 1.unity using Guid(714de318b22d63b478b4405e83f374c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b5a3cb10d1daa4b102f5b4433c50ca') in 0.007519 seconds
+  Import took 0.013550 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.641373 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/heart-gradient.png
-  artifactKey: Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/heart-gradient.png using Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185e11141c47b742314d45b66a8d9dd9') in 0.011030 seconds
-  Import took 0.017108 seconds .
+  Time since last request: 4.332205 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/NoiseShader.unity
+  artifactKey: Guid(714de318b22d63b478b4405e83f374c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/NoiseShader.unity using Guid(714de318b22d63b478b4405e83f374c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7361e375a63ab4a68aae93f03cc0f0e') in 0.007463 seconds
+  Import took 0.014609 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.870718 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a291233bec5b076952bc9de14081e') in 0.003793 seconds
-  Import took 0.009779 seconds .
+  Time since last request: 14.363466 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply 1.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Multiply 1.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3556304e4cf0d5437c30aa1cb16ee4b') in 0.007652 seconds
+  Import took 0.014006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.109328 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a291233bec5b076952bc9de14081e') in 0.003440 seconds
-  Import took 0.009173 seconds .
+  Time since last request: 2.038704 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6629c9cb77cf832f6979ccbab51391e5') in 0.004625 seconds
+  Import took 0.010833 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 190.991966 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Sample006_Patterns.unity
-  artifactKey: Guid(e69071b864e123644b0728a8b64992b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Sample006_Patterns.unity using Guid(e69071b864e123644b0728a8b64992b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a4643a181f1883aa03c9b9e299d8a3') in 0.006462 seconds
-  Import took 0.012426 seconds .
+  Time since last request: 0.013780 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6629c9cb77cf832f6979ccbab51391e5') in 0.004269 seconds
+  Import took 0.010947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.619300 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/heart-gradient.png
-  artifactKey: Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/heart-gradient.png using Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdc00f450b3c643273643e08a58493a') in 0.010448 seconds
-  Import took 0.017356 seconds .
+  Time since last request: 0.564767 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01 1.shadergraph
+  artifactKey: Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01 1.shadergraph using Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c50543f42f786cb217f7ffaf628fcda') in 0.035197 seconds
+  Import took 0.041513 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 723.300953 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/SVG/favourite.svg
-  artifactKey: Guid(4b62af427c0fea34baac4391e044a3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/SVG/favourite.svg using Guid(4b62af427c0fea34baac4391e044a3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0162b556f8fee5d2bc150570f241dd89') in 0.009067 seconds
-  Import took 0.015351 seconds .
+  Time since last request: 1.262679 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph
+  artifactKey: Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph using Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b26976faa9604499c5037f7e8159c') in 0.007885 seconds
+  Import took 0.014321 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.249977 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/favourite-gradient.png
-  artifactKey: Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/favourite-gradient.png using Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d704680bf8f7fafd931912bd5a071b1') in 0.014886 seconds
-  Import took 0.020708 seconds .
+  Time since last request: 0.018576 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph
+  artifactKey: Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph using Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b26976faa9604499c5037f7e8159c') in 0.004272 seconds
+  Import took 0.010743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001584 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/favourite-gradient.png
-  artifactKey: Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/favourite-gradient.png using Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d704680bf8f7fafd931912bd5a071b1') in 0.010013 seconds
-  Import took 0.016219 seconds .
+  Time since last request: 0.583031 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02 1.shadergraph
+  artifactKey: Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02 1.shadergraph using Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53880913114e4f7a8269bed6ccd2818') in 0.008715 seconds
+  Import took 0.015278 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.005162 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures
-  artifactKey: Guid(320080dd69734ee49814a562df5a5cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures using Guid(320080dd69734ee49814a562df5a5cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478fac52fcbf9fb9efe2f0826380c111') in 0.020960 seconds
-  Import took 0.026503 seconds .
+  Time since last request: 2.140906 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph
+  artifactKey: Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph using Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0a886c10407d044adb8bda65d6dee3') in 0.008281 seconds
+  Import took 0.041150 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.015308 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/SVG
-  artifactKey: Guid(5c42a9355db3a5549ad4b521b1650fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/SVG using Guid(5c42a9355db3a5549ad4b521b1650fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff351e0026292f9c2751f51816a3a3c4') in 0.006000 seconds
-  Import took 0.011765 seconds .
+  Time since last request: 0.020241 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph
+  artifactKey: Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph using Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0a886c10407d044adb8bda65d6dee3') in 0.004236 seconds
+  Import took 0.010815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.427822 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-circle.svg
-  artifactKey: Guid(01f6667fa9353e14f803f49fd6dfbbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-circle.svg using Guid(01f6667fa9353e14f803f49fd6dfbbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e172bfd65ee24d1a691bd4ae3d6ebd') in 0.006888 seconds
-  Import took 0.012381 seconds .
+  Time since last request: 19.849645 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f207f977d75fcc89bd31da2273b8db96') in 0.004555 seconds
+  Import took 0.011394 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000724 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-circle.svg
-  artifactKey: Guid(01f6667fa9353e14f803f49fd6dfbbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-circle.svg using Guid(01f6667fa9353e14f803f49fd6dfbbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e172bfd65ee24d1a691bd4ae3d6ebd') in 0.003657 seconds
-  Import took 0.009499 seconds .
+  Time since last request: 0.000453 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f207f977d75fcc89bd31da2273b8db96') in 0.004186 seconds
+  Import took 0.010644 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.180056 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/3D709AB9.png
-  artifactKey: Guid(738d3a608d5bcca44abaf91cf9367314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/3D709AB9.png using Guid(738d3a608d5bcca44abaf91cf9367314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1793d95043b0f5f395301f11b36dff7a') in 0.013600 seconds
-  Import took 0.020779 seconds .
+  Time since last request: 12.770838 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph
+  artifactKey: Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph using Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fbb711307cc52e0fe9882205214e9f') in 0.004127 seconds
+  Import took 0.011334 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001723 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/3D709AB9.png
-  artifactKey: Guid(738d3a608d5bcca44abaf91cf9367314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/3D709AB9.png using Guid(738d3a608d5bcca44abaf91cf9367314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1793d95043b0f5f395301f11b36dff7a') in 0.005466 seconds
-  Import took 0.010896 seconds .
+  Time since last request: 14.071204 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph
+  artifactKey: Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph using Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f30a3b900e6d93b5b4702189742253') in 0.004358 seconds
+  Import took 0.011032 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.101129 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/3D709AB8.png
-  artifactKey: Guid(dfa6ac50546182744bd7a0c586fbcd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/3D709AB8.png using Guid(dfa6ac50546182744bd7a0c586fbcd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafdfd01fe428fb3bd2baf01a55f2595') in 0.013220 seconds
-  Import took 0.019083 seconds .
+  Time since last request: 0.000612 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph
+  artifactKey: Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph using Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f30a3b900e6d93b5b4702189742253') in 0.004248 seconds
+  Import took 0.010838 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.390878 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-ring.svg
-  artifactKey: Guid(aee733006f3b3ba4e84d872371bda4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-ring.svg using Guid(aee733006f3b3ba4e84d872371bda4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65696574dc335b9f72c16cb01cfc5087') in 0.006573 seconds
-  Import took 0.012387 seconds .
+  Time since last request: 41.913735 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1a20d9c72714dbd330d1d59fbd2f06') in 0.004591 seconds
+  Import took 0.011124 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011458 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-ring.svg
-  artifactKey: Guid(aee733006f3b3ba4e84d872371bda4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/ok-ring.svg using Guid(aee733006f3b3ba4e84d872371bda4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65696574dc335b9f72c16cb01cfc5087') in 0.003090 seconds
-  Import took 0.009078 seconds .
+  Time since last request: 26.992883 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph
+  artifactKey: Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph using Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf25144c6b3a9253dcc6881b98864d4') in 0.004383 seconds
+  Import took 0.010836 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.218231 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/B9E1B5D9.png
-  artifactKey: Guid(31dd3124d973ce9448543eeea373058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/B9E1B5D9.png using Guid(31dd3124d973ce9448543eeea373058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680bbe0b2d4c87a8fd9709f1cd5ee8f3') in 0.009346 seconds
-  Import took 0.016365 seconds .
+  Time since last request: 0.269824 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph
+  artifactKey: Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise02.shadergraph using Guid(cb6e4ba4fe770fa4591f5bbfe2d5bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf25144c6b3a9253dcc6881b98864d4') in 0.004100 seconds
+  Import took 0.010136 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.591592 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/B9E1B5D8.png
-  artifactKey: Guid(e4987e9924754164aaf3bca5b80a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/B9E1B5D8.png using Guid(e4987e9924754164aaf3bca5b80a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca93d5ad9fef8d7330112b2cf4ada06') in 0.010011 seconds
-  Import took 0.015998 seconds .
+  Time since last request: 45.883765 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph
+  artifactKey: Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise03.shadergraph using Guid(eec4f6491a637fa46b3d3a329ffb1115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a0e052d2f06c22f5899b2bf3d71dbc') in 0.004337 seconds
+  Import took 0.011222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002311 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/B9E1B5D8.png
-  artifactKey: Guid(e4987e9924754164aaf3bca5b80a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG/B9E1B5D8.png using Guid(e4987e9924754164aaf3bca5b80a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca93d5ad9fef8d7330112b2cf4ada06') in 0.006281 seconds
-  Import took 0.011925 seconds .
+  Time since last request: 12.886921 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01A.shadergraph
+  artifactKey: Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01A.shadergraph using Guid(d8f7f85fd441c7646a667ef95d4448a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaf240e3cefcbd2ff29f709f5bcc352') in 0.008069 seconds
+  Import took 0.019892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.431121 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG
-  artifactKey: Guid(817d2190d807463468e49e4b724a97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG using Guid(817d2190d807463468e49e4b724a97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2997c75d5df0697d17d44cac74d86a9d') in 0.002485 seconds
-  Import took 0.007835 seconds .
+  Time since last request: 0.746221 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01A 1.shadergraph
+  artifactKey: Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01A 1.shadergraph using Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467e247e94c647a5688510ac5d167c9b') in 0.007912 seconds
+  Import took 0.014816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001520 seconds.
-  path: Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG
-  artifactKey: Guid(817d2190d807463468e49e4b724a97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/07_UIClipAnimation/SVG using Guid(817d2190d807463468e49e4b724a97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2997c75d5df0697d17d44cac74d86a9d') in 0.002390 seconds
-  Import took 0.007058 seconds .
+  Time since last request: 1.571292 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph
+  artifactKey: Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph using Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4542043731fd10c32f10403f22e8b1') in 0.007812 seconds
+  Import took 0.014910 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 117.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2994.
+Total: 3.314700 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.066000 ms MarkObjects: 1.653700 ms  DeleteObjects: 1.283500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.3 MB.
+System memory in use after: 117.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2997.
+Total: 3.810600 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.065100 ms MarkObjects: 1.953000 ms  DeleteObjects: 1.384000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 334.532338 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9565fa64675bca41e9a363c58cc464dd') in 0.008393 seconds
-  Import took 0.015011 seconds .
+  Time since last request: 2372.136315 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph
+  artifactKey: Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph using Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9061fe4050b8c371308417feade8e4c3') in 0.023189 seconds
+  Import took 0.029748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001062 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph
-  artifactKey: Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Shader/HeartGradient.shadergraph using Guid(ab21d6731cb0cd3499603a1dc295fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9565fa64675bca41e9a363c58cc464dd') in 0.003460 seconds
-  Import took 0.009536 seconds .
+  Time since last request: 0.282826 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph
+  artifactKey: Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph using Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9061fe4050b8c371308417feade8e4c3') in 0.004167 seconds
+  Import took 0.010235 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.3 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3000.
+Total: 4.024400 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.074200 ms MarkObjects: 2.193600 ms  DeleteObjects: 1.433800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.705365 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/star-gradient.png
-  artifactKey: Guid(aa78ba9ecb64a814f881e30385d4c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/star-gradient.png using Guid(aa78ba9ecb64a814f881e30385d4c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e5065d7104422cdd502896e31641ad') in 0.015087 seconds
-  Import took 0.021441 seconds .
+  Time since last request: 3938.693775 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph
+  artifactKey: Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph using Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7fe896abeb84062f41feba6a2ad4d') in 0.026549 seconds
+  Import took 0.033299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.126041 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/star-gradient.png
-  artifactKey: Guid(aa78ba9ecb64a814f881e30385d4c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/star-gradient.png using Guid(aa78ba9ecb64a814f881e30385d4c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cffdffd670b607ac7d8a4e9889d322') in 0.010884 seconds
-  Import took 0.017039 seconds .
+  Time since last request: 0.001233 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph
+  artifactKey: Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/Noise01B.shadergraph using Guid(f478e8647f1df2e44bb809167954fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7fe896abeb84062f41feba6a2ad4d') in 0.004178 seconds
+  Import took 0.009740 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.972754 seconds.
-  path: Assets/_SampleData/ShaderSamples/06_Patterns/Textures/favourite-gradient.png
-  artifactKey: Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_SampleData/ShaderSamples/06_Patterns/Textures/favourite-gradient.png using Guid(cc0886c4ea4601a4180900b749585acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a441f5d8009b5643170768e2e5149dd7') in 0.010193 seconds
-  Import took 0.016503 seconds .
+  Time since last request: 25.749339 seconds.
+  path: Assets/_SampleData/ShaderSamples/08_NoiseShader/NoiseShader.unity
+  artifactKey: Guid(714de318b22d63b478b4405e83f374c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_SampleData/ShaderSamples/08_NoiseShader/NoiseShader.unity using Guid(714de318b22d63b478b4405e83f374c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5096b0768b41304e82e92fef489e9482') in 0.007051 seconds
+  Import took 0.013253 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
