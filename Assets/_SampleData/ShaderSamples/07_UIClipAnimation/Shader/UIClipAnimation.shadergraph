@@ -230,7 +230,7 @@
             "m_Guid": ""
         }
     },
-    "m_Path": "Shader Graphs",
+    "m_Path": "CookBook",
     "m_ConcretePrecision": 0,
     "m_PreviewMode": 2,
     "m_OutputNode": {
@@ -1059,8 +1059,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1715.33349609375,
-            "y": -80.6667251586914,
+            "x": -1727.0,
+            "y": -81.0,
             "width": 208.0,
             "height": 326.0
         }
